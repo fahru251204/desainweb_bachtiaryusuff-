@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen">
+    <!-- Sidebar Include -->
+    <div>
+      <div class="flex">
+        <!-- Include Sidebar -->
+        <div>
+          <!-- Sidebar Component Start -->
+          <div
+            class="flex flex-col h-screen p-3 bg-gray-800 text-white shadow w-60 fixed"
+          >
+            <div class="space-y-3">
+              <div class="text-2xl font-bold text-center">Admin Panel</div>
+              <div class="flex-1">
+                <ul class="pt-2 pb-4 space-y-1 text-sm">
+                  <li class="rounded-sm">
+                    <a
+                      href="dashboard.html"
+                      class="flex items-center p-2 space-x-3 rounded-md hover:bg-gray-700"
+                    >
+                      <span>beranda</span>
+                    </a>
+                  </li>
+                  <li class="rounded-sm">
+                    <a
+                      href="kategori.html"
+                      class="flex items-center p-2 space-x-3 rounded-md hover:bg-gray-700"
+                    >
+                      <span>Kategori</span>
+                    </a>
+                  </li>
+                  <li class="rounded-sm">
+                    <a
+                      href="produk.html"
+                      class="flex items-center p-2 space-x-3 rounded-md hover:bg-gray-700"
+                    >
+                      <span>Produk</span>
+                    </a>
+                    <li class="rounded-sm">
+                      <a
+                        href="user.html"
+                        class="flex items-center p-2 space-x-3 rounded-md hover:bg-gray-700"
+                      >
+                      <span>user</span>
+                    </a>
+                  </li>
+                  </li>
+                  <li class="rounded-sm">
+                    <a
+                    href="login.html"
+                      class="flex items-center p-2 space-x-3 rounded-md hover:bg-gray-700"
+                    >
+                      <span>Logout</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Sidebar Component End -->
+        </div>
+        <!-- Main Content -->
+        <div class="ml-64 p-8 w-full">
+          <h1 class="text-3xl font-bold mb-6">Selamat Datang bachtiaryusuf!</h1>
+          <div class="grid grid-cols-3 gap-4 w-full">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+              <h2 class="text-lg font-semibold">Jumlah Produk</h2>
+              <p class="text-2xl">235740</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+              <h2 class="text-lg font-semibold">Jumlah Kategori</h2>
+              <p class="text-2xl">101</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+              <h2 class="text-lg font-semibold">Jumlah User</h2>
+              <p class="text-2xl">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
